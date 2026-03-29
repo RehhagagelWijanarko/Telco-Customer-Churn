@@ -23,4 +23,7 @@ Sedangkan, variabel independen yang digunakan adalah variabel yang  diasumdikan 
 15. TotalCharges - numerik
 16. MonthlyCharges - numerik
 17. tenure - numerik
-18. SeniorCitizen - numerik 
+18. SeniorCitizen - numerik
+
+## Hasil dan Pembahasan
+Berdasarkan hasil pemodelan Random Forest didapatkan bahwa model memiliki _accuracy_ sebesar 0,79, _precision_ sebesar 0,63, _Recall_ sebesar 0,50, _F1-score_ sebesar 0,56. Berdasarkan metric evaluasi yang didapatkan. model Random Forest sudah dapat menjelaskan dan memprediksi data dengan baik karena memiliki akurasi yang cukup tinggi, selain itu dengan data yang imbalance pada label variabel respon juaga ditunjukkan kemampuan model Random Forest yang optimal dengan nilai _precision_ yang cukup tinggi.
